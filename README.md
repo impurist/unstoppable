@@ -3,7 +3,6 @@ unstoppable
 
 * [Homepage](https://rubygems.org/gems/unstoppable)
 * [Documentation](http://rubydoc.info/gems/unstoppable/frames)
-* [Email](mailto:impurist at gmail.com)
 Cucumber extension that ensures all tests run to completion, catching failures and errors along the way and reporting them at completion.
 
 ## Description
