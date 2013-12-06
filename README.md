@@ -58,8 +58,9 @@ This helper method does the following:
     2b. adds expectation failure to failures collection if error is an RSpec::Expectations::ExpectationNotMetError
   3. logs error/failure
 
+This code was busted out quickly to solve a problem I have at work. There is much that can be added and improved.
 
-
+Comments, Suggestion most welcome.
 
 
 
