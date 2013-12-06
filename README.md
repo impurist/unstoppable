@@ -5,8 +5,10 @@ unstoppable
 * [Documentation](http://rubydoc.info/gems/unstoppable/frames)
 Cucumber extension that ensures all tests run to completion, catching failures and errors along the way and reporting them at completion.
 
+This concept may seem ludicrous to some. It is however serving my purposes.
+
 ## Description
-Problem
+Problem:
   
   While Cucumber is an awesome tool, for some kinds of tests it's default behaviour becomes an obstacle.
   Testing large batches of input against a slow error prone system is the source of much frustration.
