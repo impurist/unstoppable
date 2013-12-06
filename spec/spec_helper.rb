@@ -1,4 +1,4 @@
 require 'rspec'
-require 'unstoppable/version'
+require 'unstoppable'
 
 include Unstoppable

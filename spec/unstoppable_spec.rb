@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'unstoppable'
 
 describe Unstoppable do
   it "should have a VERSION constant" do

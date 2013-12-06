@@ -1,4 +1,6 @@
 Gemfile.lock
 doc/
-pkg/
+pkggit add ./
 vendor/cache/*.gem
+.idea
+unstoppable.log
