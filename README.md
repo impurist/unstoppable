@@ -2,10 +2,10 @@ unstoppable
 ===========
 
 * [Homepage](https://rubygems.org/gems/unstoppable)
-* [Documentation](http://rubydoc.info/gems/unstoppable/frames)
+
 Cucumber extension that ensures all tests run to completion, catching failures and errors along the way and reporting them at completion.
 
-This concept may seem ludicrous to some. It is however serving my purposes.
+This concept may seem ludicrous to some. It is however serving my purposes for certain kinds of tests.
 
 ## Description
 Problem:
@@ -31,7 +31,9 @@ Public Interface:
 
   In your cucumber env.rb
   
-  
+```ruby 
+require 'unstoppable'
+
   Before do |scenario|
     setup_unstoppable
   end
@@ -40,12 +42,14 @@ Public Interface:
     print unstoppable_failures(scenario)
     print unstoppable_errors(scenario)
   end
+```
   
 In a step definition  wrap any operation that you do not wish to stop execution like so
-
+```ruby 
   unstoppable do
     expect(thing).to be(exected_thing)
   end
+```
 
 This helper method does the following:
   1. runs executes the block
@@ -53,6 +57,8 @@ This helper method does the following:
     2a. adds error to errors collection if an error
     2b. adds expectation failure to failures collection if error is an RSpec::Expectations::ExpectationNotMetError
   3. logs error/failure
+
+
 
 
 
